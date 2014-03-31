@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<configuration date="2013/04/01" author="e.World Technology Ltd.">
+<project id="{B9BF3307-7A7A-4ACA-81A3-DC180D98192D}" file="E:\DevZone\Webs\Servers\Apache2\www\cssociety\configuracione\cssociety.pmp" name="cssociety" product="PHPMaker" version="9.0" datetime="2013/04/01 00:20:16" languagefolder="phplang" userlevel="0,&quot;Default&quot;,0">
+<table id="blogs" name="blogs" caption="blogs" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="fb_grupos" name="fb_grupos" caption="fb grupos" userlevel="0,&quot;Default&quot;,8" priv="1"/>
+<table id="feedback" name="feedback" caption="feedback" userlevel="0,&quot;Default&quot;,111" priv="1"/>
+<table id="noticias" name="noticias" caption="noticias" userlevel="0,&quot;Default&quot;,8" priv="1"/>
+<table id="paises" name="paises" caption="paises" userlevel="0,&quot;Default&quot;,8" priv="1"/>
+<table id="owners" name="owners" caption="owners" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="audittrail" name="audittrail" caption="audittrail" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+<table id="fb_posts" name="fb_posts" caption="fb posts" userlevel="0,&quot;Default&quot;,0" priv="1"/>
+</project></configuration>

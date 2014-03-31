@@ -1,0 +1,42 @@
+
+
+
+1. Sistema de subscribcio una sola lista
+	correo
+	pais
+	preferencias
+
+2. Sistema	
+	Paises: paises con CS
+	Blogs:
+		nombre,pais,tipo,user,pass
+	fb_grupos:
+		nombre,pais,url
+	 - funciones: 	- get posts from fb group
+					- del post from fb group
+		    		- change fb group description and logo.
+	Feedback:
+		Titulo
+		Descripcion
+		Url
+		Autor&Origen
+		Paises target Blog:
+		Paises target fb:		
+		fecha:
+		ejecutar: si/no
+	Mailing:
+		funciones:
+				- obtner todos los correos de mailchimp	
+				- obtener todas las campáñas de mailchimp.
+
+
+
+
+
+1era Etapa:
+Subscripción y recolección de usuarios, ademas envio automatico a toda la red o paises seleccionaos desde un mismo lugar,
+ para expandir el publico de cada noticia.
+2da Etapa:
+Agregar opcion de postear noticia en fb. de la misma forma de arriba, que el admin pueda publicar esa noticia en todos 
+los grupos odeterminados grupos de fb desde un mismo lugar sin necesidad de entrar en fb e ir uno por uno.
+ 

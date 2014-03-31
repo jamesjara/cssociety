@@ -1,0 +1,31 @@
+AddDefaultCharset utf-8
+AddCharset utf-8 .html .php .css .js
+DefaultLanguage es-ES
+
+
+Options +FollowSymLinks
+RewriteEngine On
+ 
+DirectoryIndex login.php
+ 
+# Remove trailing slashes.
+# e.g. example.com/foo/ will redirect to example.com/foo
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.+)/$ /$1 [R=permanent,QSA]
+
+ 
+# Redirect to PHP if it exists.
+# e.g. example.com/foo will display the contents of example.com/foo.php
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule ^(.+)$ $1.php [L,QSA]
+
+#hack para spoofear mailchimp
+RewriteRule ^custombannerr([^\|\|\|]*)\|\|\|([^\|\|\|]*)jpg$ register.php?action=confirm&email=$1&code=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]*)-([^/]*)$ $1$2.php [L,QSA]
+ 
+

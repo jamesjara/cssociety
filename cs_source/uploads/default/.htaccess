@@ -1,0 +1,5 @@
+DirectoryIndex none.png
+
+RewriteEngine on
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule ^.*$ none.jpg [NC,L]
